@@ -1,0 +1,75 @@
+.body{
+    background: rgb(97,62,115);
+    background: linear-gradient(90deg, rgba(97,62,115,1) 0%, rgba(147,77,100,1) 20%, rgba(203,113,107,1) 40%, rgba(244,134,96,1) 60%, rgba(251,194,161,1) 80%);
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+    display: flex;
+    user-select: none;
+}
+html{
+    height: 100%;
+}
+.output{
+    background:rgba( 255, 255, 255, 0.45 );
+    height: 90px;
+    width: 312px;
+    border-top-right-radius: 20px;
+    border-top-left-radius:20px; 
+    border: none;
+    font-size: 4.2rem;
+    padding-block-start: 3rem;
+    padding-block-end: 0.5rem;
+    padding-inline-end: 1.25rem;
+    text-align: end;
+    font-family: 'dosis';
+    color: #fff;
+    user-select: none;
+    
+    
+    
+}
+.button{
+    
+    border: none;
+    text-align: center;
+    font-size: 1.5rem;
+    /* Playful Styles */
+    inline-size: 70px;
+    block-size: 70px;
+    margin: 3px;
+    border-radius: 50px;
+    font-family: 'dosis';
+    text-align: center;
+}
+.calculator-button{
+    
+    padding: 0.5rem;
+    background: rgba( 255, 255, 255, 0.45 );
+}
+.enter{
+    border-radius: 50px;
+    inline-size: 70px;
+    block-size: 70px;
+    border: none;
+    margin: 3px;
+    background-color: #f48660;
+    font-size: 1.5rem;
+}
+.calculator-button-class{
+    padding: 0.5rem;
+    background: rgba( 255, 255, 255, 0.45 );
+    
+    
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.button:active{
+    background-color: #f48660;
+}
+.enter:active{
+    background-color: white;
+}
+::placeholder{
+    color:white ;
+}
